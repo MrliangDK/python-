@@ -11,8 +11,19 @@ import function
 from datetime import datetime
 import time
 import glob
+import pandas as pd
+
+print(pd.__version__)
+
+mydataset = {"sites": ["Google", "Runoob", "Wiki"], "number": [1, 2, 3]}
+
+myvar = pd.DataFrame(mydataset)
+
+print(myvar)
 
 
+# Series
+# 正则表达式
 class juxing:
     # wide = 0
     # long = 0
