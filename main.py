@@ -13,13 +13,25 @@ import time
 import glob
 import pandas as pd
 
-print(pd.__version__)
+# print(pd.__version__)
 
-mydataset = {"sites": ["Google", "Runoob", "Wiki"], "number": [1, 2, 3]}
+# mydataset = {"sites": ["Google", "Runoob", "Wiki"], "number": [1, 2, 3]}
 
-myvar = pd.DataFrame(mydataset)
+# myvar = pd.DataFrame(mydataset)
 
-print(myvar)
+# print(myvar)
+
+new_index = [1, 2, 3]
+series1 = pd.Series(
+    [
+        "张三",
+        "李四",
+        "王五",
+    ],
+    index=new_index,
+    name="姓名",
+)
+print(series1[1])
 
 
 # Series
@@ -54,8 +66,8 @@ y = juxing(8, 2)
 # x.wide = 4
 # y.mianji()
 # x.zhouchang()
-num = int(input("请输入"))
-print("{}的平方根为{}".format(num, math.sqrt(num)))
+# num = int(input("请输入"))
+# print("{}的平方根为{}".format(num, math.sqrt(num)))
 # print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
 # print(datetime.now(), glob.glob("*.py"))
 
