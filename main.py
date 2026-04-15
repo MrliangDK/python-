@@ -13,6 +13,9 @@ import time
 import glob
 import pandas as pd
 
+# git add .
+# git commit -m "update"
+# # git push
 # print(pd.__version__)
 
 # mydataset = {"sites": ["Google", "Runoob", "Wiki"], "number": [1, 2, 3]}
@@ -20,18 +23,6 @@ import pandas as pd
 # myvar = pd.DataFrame(mydataset)
 
 # print(myvar)
-
-new_index = [1, 2, 3]
-series1 = pd.Series(
-    [
-        "张三",
-        "李四",
-        "王五",
-    ],
-    index=new_index,
-    name="姓名",
-)
-print(series1[1])
 
 
 # Series
